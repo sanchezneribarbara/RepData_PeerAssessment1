@@ -94,6 +94,7 @@ library(lattice)
 xyplot(df1$steps~interval | day, data = df1, type = 'l',xlab = 'Interval',ylab = 'Number of Steps', layout = c(1,2))
 ```
 
+#Both histograms look the same because I used the median to fill in the missing data values.
 
 
 
